@@ -1,9 +1,10 @@
+<<<<<<< HEAD
 # Site settings
 title: 2017 NSA Competition
-description: NSA Competition
+description: 2017 NSA Competition
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mudongliang.github.io" # the base hostname & protocol for your site
+url: "http://psusecurity.github.io" # the base hostname & protocol for your site
 
 
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
