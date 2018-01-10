@@ -1,9 +1,9 @@
-# 2017 NSA competition
+## 2017 NSA competition
 
-## Q1:
+### P1:
 
-## Q2:
+### P2:
 
-## Q3:
+### P3:
 
-## Q4:
+### P4:
