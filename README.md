@@ -5,11 +5,11 @@ Prepare your virutal machine following [Install VirtualBox in Windows](https://g
 
 ## P1: Catch the flag
 
-Given one vulnerable binary, generate malicious input to get the specific output - "Welcome to overflow".
+Given vulnerable binary files, generate malicious input to get the specific output - "Welcome to overflow".
 
 ## P2: Open one terminal 
 
-Given one vulnerable binary, generate malicious input to get one terminal open. (Check References 1, 2, and 3)
+Given vulnerable binary files, generate malicious input to get one terminal open. (Check References 1, 2, and 3)
 
 ## P3: Learn Coredump
 
@@ -40,3 +40,5 @@ Given Coredump with binary and Source code, try to catch the root cause;
 [5] [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/#generate-the-example)
 
 [6] [Coredump in Linux](http://www.gabriel.urdhr.fr/2015/05/29/core-file/)
+
+[7] [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
