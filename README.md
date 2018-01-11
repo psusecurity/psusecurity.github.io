@@ -2,6 +2,7 @@
 ## Preparation
 
 Install VirtualBox following Documents :
+
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
 -[Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
@@ -37,23 +38,23 @@ Given vulnerable binary - challenge4, generate malicious input to get gedit wind
 
 ## Challenge 5: Learn Coredump
 
-Given one coredump, ask some questions related to coredump format. (Check References 4, 5 and 6)
+Given one coredump, ask some questions related to coredump format.  You could read References 4, 5 and 6 to get all the following information.
 
-1. What's the magic number for Coredump?
-2. How many program header entries does it have?
+1. Show the magic number for Coredump.
+2. Show program header table.
 3. What's the value of address 0xXXXXXXXX in the coredump?
 
 ## Challenge 6: Coredump with source code and binary (Non-corrupted coredump)
  
-Given Coredump with binary and Source code, try to catch the root cause;
+Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
 
 ## Challenge 7: Coredump with source code and binary (Corrupted coredump)
 
-Given Coredump with binary and Source code, try to catch the root cause;
+Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
 
 ## Challenge 8: Coredump with only binary (Corrupted coredump)
 
-Given Coredump with binary and Source code, try to catch the root cause;
+Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
 
 ## Tips
 
@@ -74,4 +75,11 @@ Given Coredump with binary and Source code, try to catch the root cause;
 
 [6] [Coredump in Linux](http://www.gabriel.urdhr.fr/2015/05/29/core-file/)
 
-[7] [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
+[7] [GDB Stacktrace](https://sourceware.org/gdb/onlinedocs/gdb/Backtrace.html)
+
+[8] [Get stacktrace from coredump](https://stackoverflow.com/questions/5745215/getting-stacktrace-from-core-dump)
+
+[9] [GDB Variables](https://sourceware.org/gdb/onlinedocs/gdb/Variables.html)
+
+[10] [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
+
