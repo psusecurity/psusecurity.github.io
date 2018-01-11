@@ -2,7 +2,11 @@
 
 ## Registration
 
-## Deadline
+Please provide your basic information - use edu email address or send student id by any email account to <s2istnsa@gmail.com>.
+
+### Deadline of registration
+
+XX-XX-XXXX
 
 ## Preparation
 
