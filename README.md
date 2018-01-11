@@ -4,7 +4,7 @@
 Install VirtualBox following Documents :
 
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
--[Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
+- [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
 or by Videos :
 
@@ -42,7 +42,7 @@ Given one coredump, ask some questions related to coredump format.  You could re
 
 1. Show the magic number for Coredump.
 2. Show program header table.
-3. What's the value of address 0xXXXXXXXX in the coredump?
+3. Show the value of address 0x8048010(double word size) in the coredump?
 
 ## Challenge 6: Coredump with source code and binary (Non-corrupted coredump)
  
