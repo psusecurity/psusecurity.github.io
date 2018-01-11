@@ -1,13 +1,13 @@
 
 ## Preparation
 
-Prepare your virutal machine following [Install VirtualBox in Windows](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf) and [Install Ubuntu 16.04 LTS in VirtualBox](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_Ubuntu_16.04_LTS_in_VirtualBox.pdf)
+Install VirtualBox following one document [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf) or by Videos [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8) / [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo) / [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-## P1: Catch the flag
+## P1: get specific output
 
 Given vulnerable binary files, generate malicious input to get the specific output - "Welcome to overflow".
 
-## P2: Open one terminal 
+## P2: open one terminal 
 
 Given vulnerable binary files, generate malicious input to get one terminal open. (Check References 1, 2, and 3)
 
