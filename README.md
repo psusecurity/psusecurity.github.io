@@ -3,6 +3,8 @@
 
 Install VirtualBox following one document [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf) or by Videos [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8) / [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo) / [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
+Download one virtual machine package from [PSU Box](), open it with your virtualbox. The username and password is **s2ist** and **s2ist**.
+
 Execute instruction in Tip Part to disable ASLR(Address Space Layout Randomization).
 
 ## Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
@@ -47,7 +49,7 @@ Given Coredump with binary and Source code, try to catch the root cause;
 
 ## Tips
 
-1.Q : How to turn off ASLR?
+1.Q : How to turn off ASLR?    
   A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
 ## References
