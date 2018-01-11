@@ -1,8 +1,14 @@
 ## Introduction
 
+Welcome to the 2017 NSA Competition!
+
 ## Registration
 
-Please provide your basic information - use edu email address or send student id by any email account to <s2istnsa@gmail.com>.
+To get started, register by sending email to <s2istnsa@gmail.com>. You could use one edu email account or student id as credential. Then, visit [the preparation part](#preparation) to receive your instructions for preparing virtual machine in the challenge.
+
+For information on core dump and for some tips on how to get started, check out [References](#references) section.
+
+Good luck!
 
 ### Deadline of registration
 
@@ -10,20 +16,20 @@ XX-XX-XXXX
 
 ## Preparation
 
-At first, install VirtualBox following Documents :
+At first, you need to install VirtualBox by following Documents :
 
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
 - [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
-or by Videos :
+or Videos :
 
 - [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, download one virtual machine package from [PSU Box](https://psu.box.com/s/ad8oflskty9byy24urczunbu4z3py5a5), open it with your virtualbox. The username and password is **s2ist** and **s2ist**.
+Second, you need download one virtual machine package from [PSU Box](), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**.
 
-Finally, execute instruction in Tip 1 to disable ASLR(Address Space Layout Randomization).
+Finally, you could execute instruction in Tip 1 to disable ASLR(Address Space Layout Randomization).
 
 ## Challenges
 
