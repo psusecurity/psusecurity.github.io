@@ -35,7 +35,7 @@ Given vulnerable binary - challenge3, generate malicious input to get gedit wind
 
 Given vulnerable binary - challenge4, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 3 to get some information about **interger overflow**.
 
-## Problem 1: Learn Coredump
+## Challenge 5: Learn Coredump
 
 Given one coredump, ask some questions related to coredump format. (Check References 4, 5 and 6)
 
@@ -43,15 +43,15 @@ Given one coredump, ask some questions related to coredump format. (Check Refere
 2. How many program header entries does it have?
 3. What's the value of address 0xXXXXXXXX in the coredump?
 
-## Problem 2: Coredump with source code and binary (Non-corrupted coredump)
+## Challenge 6: Coredump with source code and binary (Non-corrupted coredump)
  
 Given Coredump with binary and Source code, try to catch the root cause;
 
-## Problem 3: Coredump with source code and binary (Corrupted coredump)
+## Challenge 7: Coredump with source code and binary (Corrupted coredump)
 
 Given Coredump with binary and Source code, try to catch the root cause;
 
-## Problem 4: Coredump with only binary (Corrupted coredump)
+## Challenge 8: Coredump with only binary (Corrupted coredump)
 
 Given Coredump with binary and Source code, try to catch the root cause;
 
