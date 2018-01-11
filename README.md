@@ -1,9 +1,17 @@
 
 ## Preparation
 
-Install VirtualBox following one document [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf) or by Videos [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8) / [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo) / [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
+Install VirtualBox following Documents :
+- [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
+-[Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
-Download one virtual machine package from [PSU Box](), open it with your virtualbox. The username and password is **s2ist** and **s2ist**.
+or by Videos :
+
+- [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
+- [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
+- [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
+
+Download one virtual machine package from [PSU Box](https://psu.box.com/s/ad8oflskty9byy24urczunbu4z3py5a5), open it with your virtualbox. The username and password is **s2ist** and **s2ist**.
 
 Execute instruction in Tip Part to disable ASLR(Address Space Layout Randomization).
 
