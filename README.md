@@ -3,15 +3,29 @@
 
 Install VirtualBox following one document [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf) or by Videos [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8) / [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo) / [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-## P1: get specific output
+Execute instruction in Tip Part to disable ASLR(Address Space Layout Randomization).
 
-Given vulnerable binary files, generate malicious input to get the specific output - "Welcome to overflow".
+## Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
 
-## P2: open one terminal 
+Given vulnerable binary - challenge1, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
 
-Given vulnerable binary files, generate malicious input to get one terminal open. (Check References 1, 2, and 3)
+Submission : a screenshot with commands to get specific output and md5 of binary you use.
 
-## P3: Learn Coredump
+## Challenge 2 : Generate malicious input to print out "Welcome to overflow!"
+
+Given vulnerable binary - challenge2, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
+
+Submission : a screenshot with commands to get specific output and md5 of binary you use.
+
+## Challenge 3 : Craft malicious input file and invoke gedit
+
+Given vulnerable binary - challenge3, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 2 to get some information about **buffer overflow**.
+
+## Challenge 4 : Craft malicious input file and invoke one command in source code
+
+Given vulnerable binary - challenge4, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 3 to get some information about **interger overflow**.
+
+## Problem 1: Learn Coredump
 
 Given one coredump, ask some questions related to coredump format. (Check References 4, 5 and 6)
 
@@ -19,13 +33,22 @@ Given one coredump, ask some questions related to coredump format. (Check Refere
 2. How many program header entries does it have?
 3. What's the value of address 0xXXXXXXXX in the coredump?
 
-## P4: Coredump with source code and binary
+## Problem 2: Coredump with source code and binary (Non-corrupted coredump)
+ 
+Given Coredump with binary and Source code, try to catch the root cause;
+
+## Problem 3: Coredump with source code and binary (Corrupted coredump)
 
 Given Coredump with binary and Source code, try to catch the root cause;
 
-## P5: Coredump with only binary
+## Problem 4: Coredump with only binary (Corrupted coredump)
 
 Given Coredump with binary and Source code, try to catch the root cause;
+
+## Tips
+
+1.Q : How to turn off ASLR?
+  A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
 ## References
 
