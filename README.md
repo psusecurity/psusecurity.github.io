@@ -27,7 +27,7 @@ or Videos :
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need download one virtual machine package from [PSU Box](), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**.
+Second, you need to download one virtual machine package from [PSU Box](), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**. All the files related with Challenges are in the `/home/s2ist/Challenges/`. Please read the README file before the next step.
 
 Finally, you could execute instruction in Tip 1 to disable ASLR(Address Space Layout Randomization).
 
@@ -69,9 +69,13 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
 
+<!---
+
 ### Challenge 8: Coredump with only binary (Corrupted coredump)
 
 Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
+
+--->
 
 ## Tips
 
