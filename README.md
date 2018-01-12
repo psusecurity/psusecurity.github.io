@@ -27,7 +27,7 @@ or Videos :
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download one virtual machine package from [PSU Box](), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**. All the files related with Challenges are in the `/home/s2ist/Challenges/`. Please read the README file before the next step.
+Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**. All the files related with Challenges are in the `/home/s2ist/Challenges/`. Please read the README file before the next step.
 
 Finally, you could execute instruction in Tip 1 to disable ASLR(Address Space Layout Randomization).
 
