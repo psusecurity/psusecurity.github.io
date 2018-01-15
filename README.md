@@ -2,6 +2,10 @@
 
 Welcome to the 2017 NSA Competition!
 
+This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Different from existing Capture the Flag (CTF) competitions - which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis etc. - the proposed security competition focuses on the skill set needed for software vulnerability identification. In other words, the techniques required for contest participants include memory forensics, and dynamic and static analysis of vulnerable programs.
+
+The main goal of the competition is to serve as an educational exercise to give participants experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cyber-security. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks. We will make these dumps publicly available as a resource to cyber security educators and researchers.
+
 ## Registration
 
 To get started, register by sending an email to <s2istnsa@gmail.com>. You could use one .edu email account or student id as credential. Then, visit [the Preparation section](#preparation) to receive instructions on how to prepare your virtual machine for the challenge.
