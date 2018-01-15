@@ -57,16 +57,16 @@ Given vulnerable binary - `challenge4`, generate malicious input to get gedit wi
 
 **Submission** : a screenshot with md5 of `challenge4` and commands to invoke one command in source code.
 
-### Challenge 5: Learn Coredump
+### Challenge 5 : Learn Coredump
 
-Given one coredump - `core` and its binary - `bin`, ask some questions related to coredump format.  You could read References 4, 5 and 6 to get all the following information.
+Given one coredump - `core` and its binary - `example`, ask some questions related to coredump format.  You could read Tip 2 and References 4, 5 and 6 to get all the following information.
 
 1. What’s the magic number for the given coredump file?
 2. Can you show the program header table?
 3. What’s the value of address 0x8048010(double word size) in the coredump?
-4. What's the stack trace in the coredump? (Refer to Tip 2)
+4. What's the stack trace in the coredump?
 
-### Challenge 6: Figure out Root Cause of Vulnerability from Coredump with source code and binary
+### Challenge 6 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
 <!---
 (Non-corrupted coredump)
 --->
@@ -75,7 +75,7 @@ Given a coredump file - core with its respective binary - gdb and source code - 
 
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
-### Challenge 7: Figure out Root Cause of Vulnerability from Coredump with source code and binary
+### Challenge 7 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
 <!---
 (Corrupted coredump)
 --->
@@ -86,7 +86,8 @@ Given a coredump file - core with its respective binary - latex2rtf and source c
 
 <!---
 
-### Challenge 8: Coredump with only binary (Corrupted coredump)
+### Challenge 8 : Modify malicious input file and invoke gedit window according to coredump
+### Challenge 9 : Figure out Root Cause of Vulnerability from Coredump with only binary
 
 Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
 
@@ -105,7 +106,7 @@ A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
 ### Tip 2
 
-Q : How to observe coredump from gdb?
+Q : How to observe coredump from gdb?    
 A : `gdb binary coredump`
 
 
