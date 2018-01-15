@@ -42,40 +42,42 @@ Step-by-step videos :
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download a virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before next step.
+Second, you need to download the `S2ISTNSA.zip` file from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn), extract it and double click the `S2ISTNSA.vbox`. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file under that folder before next step.
 
-**NOTE:** You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
-**NOTE_2:** Please refer to the Submission section before you submit your answers for each challenge.
+**NOTE:** 
+1. You could follow the instruction in [Tip 1](#tip-1) to disable ASLR (Address Space Layout Randomization).
+2. Please refer to the [Submission](#submission) section before you submit your answers for each challenge.
+3. See [Tip 4](#tip-4) to get the md5 value of a given file.
 
 ## Challenges
 
 ### Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
 
-Given the vulnerable binary - `challenge1`, generate a malicious input to get the following output: "Welcome to overflow". In order to make your life easier, we provide the source code.
+Given the vulnerable binary - `challenge1`, generate a malicious input to get the following output: "Welcome to overflow". To make your life easier, we provide the source code.
 
-**Submission** : a screenshot with the md5 of challenge1 and the commands to get the specific output.
+**Submission** : a screenshot with the md5 of `challenge1` and the commands to get the desired output. 
 
 ### Challenge 2 : Generate malicious input to print out "Welcome to overflow!"
 
-Given the vulnerable binary - `challenge2`, generate a malicious input to get the following output: "Welcome to overflow". In order to make your life easier, we provide the source code.
+Given the vulnerable binary - `challenge2`, generate a malicious input to get the following output: "Welcome to overflow". To make your life easier, we provide the source code.
 
-**Submission** : a screenshot with the md5 of challenge2 and the commands to get the specific output.
+**Submission** : a screenshot with the md5 of `challenge2` and the commands to get the desired output.
 
 ### Challenge 3 : Craft malicious input file and invoke gedit window
 
-Given the vulnerable binary - `challenge3`, generate a malicious input to get a **gedit** window to open. In order to make your life easier, we provide the source code. You could read Reference 2 to get some information about **buffer overflows**.
+Given the vulnerable binary - `challenge3`, generate a malicious input to open a **gedit** window. To make your life easier, we provide the source code. You could read [Reference 2](#references) to get some information about **buffer overflows**.
 
 **Submission** : a screenshot with the md5 of `challenge3` and the commands to invoke a **gedit** window.
 
 ### Challenge 4 : Craft malicious input file and invoke one command in source code
 
-Given the vulnerable binary - `challenge4`, generate a malicious input to execute one command in the source code. In order to make your life easier, we provide the source code. You could read Reference 3 to get some information about **interger overflows**.
+Given the vulnerable binary - `challenge4`, generate a malicious input to execute a command hidden in the source code. To make your life easier, we provide the source code. You could read [Reference 3](#references) to get some information about **interger overflows**.
 
-**Submission** : a screenshot with the md5 of `challenge4` and the commands to invoke one command in source code.
+**Submission** : a screenshot with the md5 of `challenge4` and the commands to invoke the command hidden in source code.
 
 ### Challenge 5 : Learn Coredump
 
-Given one coredump - `core` and its binary - `example`, answer some questions related to the coredump format.  You could read Tip 2 and References 4, 5 and 6 to get all of the following information.
+Given one coredump - `core` and its binary - `example`, answer the following four questions.  You could read [Tip 2](#tip-2) and [References 4, 5 and 6](#references) to get all of the related information.
 
 1. What’s the magic number for the given coredump file?
 2. Can you show the program header table?
@@ -87,8 +89,7 @@ Given one coredump - `core` and its binary - `example`, answer some questions re
 (Non-corrupted coredump)
 --->
  
-Given the following files: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
-
+Given the following files: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`), try to find the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
 ### Challenge 7 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
@@ -96,7 +97,7 @@ Given the following files: core dump (`core`), binary (`gdb`), and source code (
 (Corrupted coredump)
 --->
 
-Given the following files: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
+Given the following files: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
 
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
@@ -111,7 +112,7 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ## Submission
 
-Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions in one email. We will only take **the last email** from each team before the deadline of submission. Please use the same email that you used for registration to send your submission. We will only consider emails that have submissions for all challenges; **incomplete emails will be ignored.**
+Please send an email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions **in one email**. We will only take **the last email** from each team before the deadline of submission. Please use the same email address that you used for registration to send your submission. Refer the `submission_template.txt` in `/home/s2ist/Challenges/` for how to submit your answers. 
 
 ## Tips
 
@@ -120,7 +121,7 @@ Please send one email that contains all the submissions of challenges to <s2istn
 Q : How to turn off ASLR? 
 A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
-### Tip 2
+### Tip 2 
 
 Q : How to use binary and corresponding coredump from gdb?    
 A : `gdb binary coredump`
@@ -129,6 +130,12 @@ A : `gdb binary coredump`
 
 Q : How to find the vulnerable function that contributes to the corrupted object?    
 A : Traverse all the functions in the stack trace and figure out the function that modifies the corrupted object to bad state.
+
+### Tip 4
+
+Q : How to get the MD5 value of a file?
+A : `md5sum filename`
+
 
 ## References
 
