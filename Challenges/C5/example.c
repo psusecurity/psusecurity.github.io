@@ -1,3 +1,11 @@
+/*
+  $ ulimit -c unlimited
+  $ gcc -o example example.c
+  $ ./example
+  Then you will see one file named core generated.
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
