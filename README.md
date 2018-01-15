@@ -2,13 +2,23 @@
 
 Welcome to the 2017 NSA Competition!
 
-This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Different from existing Capture the Flag (CTF) competitions - which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis etc. - the proposed security competition focuses on the skill set needed for software vulnerability identification. In other words, the techniques required for contest participants include memory forensics, and dynamic and static analysis of vulnerable programs.
+This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Different from existing Capture the Flag (CTF) competitions - which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis etc. - the proposed security competition focuses on the skillset needed for software vulnerability identification. In other words, the techniques required for contest participants include memory forensics, and dynamic and static analysis of vulnerable programs.
 
-The main goal of the competition is to serve as an educational exercise to give participants experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cyber-security. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks. We will make these dumps publicly available as a resource to cyber security educators and researchers.
+The main goal of the competition is to serve as an educational exercise to give participants experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cybersecurity. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks. We will make these dumps publicly available as a resource to cyber security educators and researchers.
+
 
 ## Registration
+// Who's eligible to participate? Graduate? Undergraduate? From which universities?
+// What information should be included in the registration email? Name, lastname, student id? student email? Team members?
+// What should teams look like? Max amount of members? Min amount?
 
-To get started, register by sending an email to <s2istnsa@gmail.com>. You could use one .edu email account or student id as credential. Then, visit [the Preparation section](#preparation) to receive instructions on how to prepare your virtual machine for the challenge.
+The competition is only open for students, no matter high school student, undergradute student or graduate student. Students could collaborate as one team. Team members should be 1 to X.
+
+To get started, register by sending an email to <s2istnsa@gmail.com>. The object of registration email should be team name and team members, for example, **Team XXX with Members - XXX, XXX**. If you want to attach more information, please write them in the body of the email.
+
+If you have one edu email account, you could register by that email account. Otherwise, you need to provide student id as your credential in the body.
+
+Then, visit [the Preparation section](#preparation) to receive instructions on how to prepare your virtual machine for the challenge.
 
 For information on core dump and for some tips on how to get started, check out the [References](#references) section.
 
@@ -34,36 +44,37 @@ Help videos :
 Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before the next step.
 
 **NOTE:** You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
+**NOTE_2:** Please refer to the Submission section before you submit your answers for each challenge.
 
 ## Challenges
 
 ### Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
 
-Given vulnerable binary - `challenge1`, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
+Given the vulnerable binary - `challenge1`, generate a malicious input to get the following output: "Welcome to overflow". In order to make your life easier, we provide the source code.
 
-**Submission** : a screenshot with md5 of challenge1 and commands to get specific output.
+**Submission** : a screenshot with the md5 of challenge1 and the commands to get the specific output.
 
 ### Challenge 2 : Generate malicious input to print out "Welcome to overflow!"
 
-Given vulnerable binary - `challenge2`, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
+Given the vulnerable binary - `challenge2`, generate a malicious input to get the following output: "Welcome to overflow". In order to make your life easier, we provide the source code.
 
-**Submission** : a screenshot with md5 of challenge2 and commands to get specific output.
+**Submission** : a screenshot with the md5 of challenge2 and the commands to get the specific output.
 
 ### Challenge 3 : Craft malicious input file and invoke gedit window
 
-Given vulnerable binary - `challenge3`, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 2 to get some information about **buffer overflow**.
+Given the vulnerable binary - `challenge3`, generate a malicious input to get a **gedit** window to open. In order to make your life easier, we provide the source code. You could read Reference 2 to get some information about **buffer overflows**.
 
-**Submission** : a screenshot with md5 of `challenge3` and commands to invoke gedit window.
+**Submission** : a screenshot with the md5 of `challenge3` and the commands to invoke a **gedit** window.
 
 ### Challenge 4 : Craft malicious input file and invoke one command in source code
 
-Given vulnerable binary - `challenge4`, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 3 to get some information about **interger overflow**.
+Given the vulnerable binary - `challenge4`, generate a malicious input to execute one command in the source code. In order to make your life easier, we provide the source code. You could read Reference 3 to get some information about **interger overflows**.
 
-**Submission** : a screenshot with md5 of `challenge4` and commands to invoke one command in source code.
+**Submission** : a screenshot with the md5 of `challenge4` and the commands to invoke one command in source code.
 
 ### Challenge 5 : Learn Coredump
 
-Given one coredump - `core` and its binary - `example`, ask some questions related to coredump format.  You could read Tip 2 and References 4, 5 and 6 to get all the following information.
+Given one coredump - `core` and its binary - `example`, answer some questions related to the coredump format.  You could read Tip 2 and References 4, 5 and 6 to get all of the following information.
 
 1. What’s the magic number for the given coredump file?
 2. Can you show the program header table?
@@ -75,7 +86,7 @@ Given one coredump - `core` and its binary - `example`, ask some questions relat
 (Non-corrupted coredump)
 --->
  
-Given a coredump file - core with its respective binary - gdb and source code - gdb.tar.gz, try to catch the root cause for the crash. You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
+Given the following files: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
 
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
@@ -84,7 +95,7 @@ Given a coredump file - core with its respective binary - gdb and source code - 
 (Corrupted coredump)
 --->
 
-Given a coredump file - core with its respective binary - latex2rtf and source code latex2rtf.tar.gz, try to catch the root cause. You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
+Given the following files: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
 
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
@@ -99,7 +110,7 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ## Submission
 
-Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions in one email. We will only take **the last email** before the deadline of submission.
+Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions in one email. We will only take **the last email** from each team before the deadline of submission. Please use the same email that you used for registration to send your submission. We will only consider emails that have submissions for all challenges; **incomplete emails will be ignored.**
 
 ## Tips
 
