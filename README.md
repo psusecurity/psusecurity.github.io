@@ -92,6 +92,10 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 --->
 
+## Submission
+
+Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the results in one email. We will only take **the last email** before the deadline of submission.
+
 ## Tips
 
 ### Tip 1
