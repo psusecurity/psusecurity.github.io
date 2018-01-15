@@ -4,9 +4,9 @@ Welcome to the 2017 NSA Competition!
 
 ## Registration
 
-To get started, register by sending email to <s2istnsa@gmail.com>. You could use one edu email account or student id as credential. Then, visit [the preparation part](#preparation) to receive your instructions for preparing virtual machine in the challenge.
+To get started, register by sending an email to <s2istnsa@gmail.com>. You could use one .edu email account or student id as credential. Then, visit [the Preparation section](#preparation) to receive instructions on how to prepare your virtual machine for the challenge.
 
-For information on core dump and for some tips on how to get started, check out [References](#references) section.
+For information on core dump and for some tips on how to get started, check out the [References](#references) section.
 
 Good luck!
 
@@ -16,58 +16,73 @@ XX-XX-XXXX
 
 ## Preparation
 
-At first, you need to install VirtualBox by following Documents :
+First, you need to install VirtualBox :
 
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
 - [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
-or Videos :
+Help videos :
 
 - [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn), open it with you installed virtualbox. The username and password is **s2ist** and **s2ist**. All the files related with Challenges are in the `/home/s2ist/Challenges/`. Please read the README file before the next step.
+Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before the next step.
 
-Finally, you could execute instruction in Tip 1 to disable ASLR(Address Space Layout Randomization).
+**NOTE:**  You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
 
 ## Challenges
 
 ### Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
 
-Given vulnerable binary - challenge1, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
+Given vulnerable binary - `challenge1`, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
 
-Submission : a screenshot with commands to get specific output and md5 of binary you use.
+**Submission** : a screenshot with md5 of challenge1 and commands to get specific output.
 
 ### Challenge 2 : Generate malicious input to print out "Welcome to overflow!"
 
-Given vulnerable binary - challenge2, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
+Given vulnerable binary - `challenge2`, generate malicious input to get the specific output - "Welcome to overflow". In order to make life easier, we provide its source code.
 
-Submission : a screenshot with commands to get specific output and md5 of binary you use.
+**Submission** : a screenshot with md5 of challenge2 and commands to get specific output.
 
-### Challenge 3 : Craft malicious input file and invoke gedit
+### Challenge 3 : Craft malicious input file and invoke gedit window
 
-Given vulnerable binary - challenge3, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 2 to get some information about **buffer overflow**.
+Given vulnerable binary - `challenge3`, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 2 to get some information about **buffer overflow**.
+
+**Submission** : a screenshot with md5 of `challenge3` and commands to invoke gedit window.
 
 ### Challenge 4 : Craft malicious input file and invoke one command in source code
 
-Given vulnerable binary - challenge4, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 3 to get some information about **interger overflow**.
+Given vulnerable binary - `challenge4`, generate malicious input to get gedit window open. In order to make life easier, we provide its source code. And you could read Reference 3 to get some information about **interger overflow**.
+
+**Submission** : a screenshot with md5 of `challenge4` and commands to invoke one command in source code.
 
 ### Challenge 5: Learn Coredump
 
-Given one coredump, ask some questions related to coredump format.  You could read References 4, 5 and 6 to get all the following information.
+Given one coredump - `core` and its binary - `bin`, ask some questions related to coredump format.  You could read References 4, 5 and 6 to get all the following information.
 
-1. Show the magic number for Coredump.
-2. Show program header table.
-3. Show the value of address 0x8048010(double word size) in the coredump?
+1. What’s the magic number for the given coredump file?
+2. Can you show the program header table?
+3. What’s the value of address 0x8048010(double word size) in the coredump?
+4. What's the stack trace in the coredump? (Refer to Tip 2)
 
-### Challenge 6: Coredump with source code and binary (Non-corrupted coredump)
+### Challenge 6: Figure out Root Cause of Vulnerability from Coredump with source code and binary
+<!---
+(Non-corrupted coredump)
+--->
  
-Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
+Given a coredump file - core with its respective binary - gdb and source code - gdb.tar.gz, try to catch the root cause for the crash. You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
 
-### Challenge 7: Coredump with source code and binary (Corrupted coredump)
+**Submission** : File_name:line_number, for example, `test.c:10`.
 
-Given Coredump with binary and Source code, try to catch the root cause. You could read References 7, 8 to get stacktrace. And you could read Reference 9 to get value of variables.
+### Challenge 7: Figure out Root Cause of Vulnerability from Coredump with source code and binary
+<!---
+(Corrupted coredump)
+--->
+
+Given a coredump file - core with its respective binary - latex2rtf and source code latex2rtf.tar.gz, try to catch the root cause. You could read References 7 and 8 for help with stack traces. And you could read Reference 9 for information on the value of variables.
+
+**Submission** : File_name:line_number, for example, `test.c:10`.
 
 <!---
 
@@ -81,8 +96,14 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ### Tip 1
 
-Q : How to turn off ASLR?    
+Q : How to turn off ASLR? 
 A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
+
+### Tip 2
+
+Q : How to observe coredump from gdb?
+A : `gdb binary coredump`
+
 
 ## References
 
