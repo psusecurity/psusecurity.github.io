@@ -113,6 +113,10 @@ A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 Q : How to use binary and corresponding coredump from gdb?    
 A : `gdb binary coredump`
 
+### Tip 3
+
+Q : How to find the vulnerable function that contributes to the corrupted object?    
+A : Traverse all the functions in the stack trace and figure out the function that modifies the corrupted object to bad state.
 
 ## References
 
