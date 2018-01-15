@@ -33,7 +33,7 @@ Help videos :
 
 Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before the next step.
 
-**NOTE:**  You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
+**NOTE:** You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
 
 ## Challenges
 
@@ -99,7 +99,7 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ## Submission
 
-Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the results in one email. We will only take **the last email** before the deadline of submission.
+Please send one email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions in one email. We will only take **the last email** before the deadline of submission.
 
 ## Tips
 
@@ -110,7 +110,7 @@ A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
 ### Tip 2
 
-Q : How to observe coredump from gdb?    
+Q : How to use binary and corresponding coredump from gdb?    
 A : `gdb binary coredump`
 
 
