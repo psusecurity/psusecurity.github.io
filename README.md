@@ -8,9 +8,12 @@ The main goal of the competition is to serve as an educational exercise to give 
 
 
 ## Registration
+
+<!--
 // Who's eligible to participate? Graduate? Undergraduate? From which universities?
 // What information should be included in the registration email? Name, lastname, student id? student email? Team members?
 // What should teams look like? Max amount of members? Min amount?
+-->
 
 The competition is only open for students, no matter high school student, undergradute student or graduate student. Students could collaborate as one team. Team members should be 1 to X.
 
