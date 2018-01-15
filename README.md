@@ -2,7 +2,7 @@
 
 Welcome to the 2017 NSA Competition!
 
-This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Different from existing Capture the Flag (CTF) competitions - which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis etc. - the proposed security competition focuses on the skillset needed for software vulnerability identification. In other words, the techniques required for contest participants include memory forensics, and dynamic and static analysis of vulnerable programs.
+This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Being different from existing Capture the Flag (CTF) competitions, which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis, etc, our competition focuses on the skillset for software vulnerability identification. In other words, the technique required for contest participants includes memory forensics, and dynamic and static analysis of vulnerable programs.
 
 The main goal of the competition is to serve as an educational exercise to give participants experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cybersecurity. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks. We will make these dumps publicly available as a resource to cyber security educators and researchers.
 
@@ -15,15 +15,13 @@ The main goal of the competition is to serve as an educational exercise to give 
 // What should teams look like? Max amount of members? Min amount?
 -->
 
-The competition is only open for students, no matter high school student, undergradute student or graduate student. Students could collaborate as one team. Team members should be 1 to X.
+The competition is open to all students: high school students, undergradute students, and graduate students. Submissions could be done individually or as a group. The maxinum number of team members is X.
 
-To get started, register by sending an email to <s2istnsa@gmail.com>. The object of registration email should be team name and team members, for example, **Team XXX with Members - XXX, XXX**. If you want to attach more information, please write them in the body of the email.
+To get started, register by sending an email to <s2istnsa@gmail.com>. The subject of the email should include the name and members of your team. For example, **Team XXX with Members - XXX, XXX**. If you want to attach more information, please write them in the body of your email. You could register with your edu email account. Otherwise, you need to provide **student id** (?) as your credential in the body.
 
-If you have one edu email account, you could register by that email account. Otherwise, you need to provide student id as your credential in the body.
+For instructions on preparing a virtual machine, see [Preparation](#preparation) section.
 
-Then, visit [the Preparation section](#preparation) to receive instructions on how to prepare your virtual machine for the challenge.
-
-For information on core dump and for some tips on how to get started, check out the [References](#references) section.
+For information on core dump and how to get started, check out the [References](#references) section.
 
 Good luck!
 
@@ -38,13 +36,13 @@ First, you need to install VirtualBox :
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
 - [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
-Help videos :
+Step-by-step videos :
 
 - [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download one virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before the next step.
+Second, you need to download a virtual machine package from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn) and open it with your installed VirtualBox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file before next step.
 
 **NOTE:** You could execute instruction in Tip 1 to disable ASLR (Address Space Layout Randomization), if you wish.
 **NOTE_2:** Please refer to the Submission section before you submit your answers for each challenge.
