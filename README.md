@@ -133,7 +133,7 @@ A : Traverse all the functions in the stack trace and figure out the function th
 
 ### Tip 4
 
-Q : How to get the MD5 value of a file?
+Q : How to get the MD5 value of a file?    
 A : `md5sum filename`
 
 
