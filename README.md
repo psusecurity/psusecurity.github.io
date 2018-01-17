@@ -42,7 +42,7 @@ Step-by-step videos :
 - [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 - [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download the `S2ISTNSA.zip` file from [PSU Box](https://psu.box.com/s/0qv3y213h7j3pdhphg259135tg0etawn), extract it and double click the `S2ISTNSA.vbox`. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file under that folder before next step.
+Second, you need to download the `S2ISTNSA.zip` file from [PSU Box](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop), extract it and double click the `S2ISTNSA.vbox`. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file under that folder before next step.
 
 **NOTE:** 
 1. You could follow the instruction in [Tip 1](#tip-1) to disable ASLR (Address Space Layout Randomization).
