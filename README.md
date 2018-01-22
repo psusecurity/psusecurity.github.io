@@ -1,37 +1,59 @@
 ## Introduction
 
-Welcome to the 2017 NSA Competition!
+Welcome to the 2018 Penn State Cybersecurity Competition, a security contest sponsored by NSA (National Security Agency)! 
 
-This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks. Being different from existing Capture the Flag (CTF) competitions, which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis, etc, our competition focuses on the skillset for software vulnerability identification. In other words, the technique required for contest participants includes memory forensics, and dynamic and static analysis of vulnerable programs.
+This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks.  Being different from existing Capture the Flag (CTF) competitions, which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis, our competition focuses on software vulnerability identification.  In other words, the skills  required for this contest include memory forensics, and dynamic and static analysis of vulnerable programs.
 
-The main goal of the competition is to serve as an educational exercise to give participants experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cybersecurity. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks. We will make these dumps publicly available as a resource to cyber security educators and researchers.
+The main goal of the competition is to serve as an educational exercise helping participants gain essential experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cybersecurity. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks.  We will make these core dumps publicly available as a resource to cybersecurity educators and researchers.
 
+### What is the 2018 Competition? When does it start/end?
+
+The Competition consists of two stages: 
+
+- Stage I involves trying to solve 7 problems (i.e., Challeges) without going to the main campus of Penn State.  Participants submit their solutions through an email.  Stage I will last 2 weeks. 
+- Stage II involves trying to solve a designated number of problems at the main campus of Penn State.  A designated number of better performers during Stage I will advance to Stage II. All travel costs will be covered by Penn State. The Stage II Competition will last 12 hours (10am-10pm) on the designated Competition day. 
+
+### Who is eligible to participate in the Competition?
+
+The competition is open to all students: high school students, undergraduate students, and graduate students. Each individual who participates in the Competition must: 
+
+- be at least 13 years old;
+- if under 18, have the consent of their parent or guardian to participate;
+- form a team alone or with up to 4 other participants; and 
+- have a valid student ID (photo ID)
+
+## Prizes
+
+First Prize: $5,000
+Second Prize: $3,500
+Third Prize: $1,500
 
 ## Registration
 
-<!--
-// Who's eligible to participate? Graduate? Undergraduate? From which universities?
-// What information should be included in the registration email? Name, lastname, student id? student email? Team members?
-// What should teams look like? Max amount of members? Min amount?
--->
+**Registration deadline: Feb 24, 2018**
 
-The competition is open to all students: high school students, undergradute students, and graduate students. Submissions could be done individually or as a group. The maxinum number of team members is X.
+To get started, register by sending an email to <s2istnsa@gmail.com>. The subject of the email should include the name and members of your team. For example, **Team XXX with Members - XXX, XXX**.  If you want to attach more information, please include the information in the body of your email. You could register with your .edu email account. Otherwise, you need to provide a student ID as your credential in the email body.
 
-To get started, register by sending an email to <s2istnsa@gmail.com>. The subject of the email should include the name and members of your team. For example, **Team XXX with Members - XXX, XXX**. If you want to attach more information, please write them in the body of your email. You could register with your edu email account. Otherwise, you need to provide **student id** (?) as your credential in the body.
+## Instructions for Stage I Participants
 
-For instructions on preparing a virtual machine, see [Preparation](#preparation) section.
+- Period of Stage I competition: **Feb 18 -- March 4**
+- Submission deadline: **11:59pm on March 4, 2018**  
+- You can find the 7 problems in the [Challenges](#challenges) section.  
+- Before you can work on any of the 7 problems, you must firstly download a particular virtual machine image created by us. You can download the virtual machine image in the [Preparation](#preparation) section.  
+- In order to run the virtual machine image on your PC, you need to install VirtualBox, a free and open-source hypervisor for x86 computers. In the [Preparation](#preparation) section, we provide you with (a) the URLs from which you can download VirtualBox, and (b) a step-by-step “How to install VirtualBox” video. 
+- To gain sufficient background knowledge for solving the 7 problems, you may leverage the knowledge units provided in the [References](#references) section.
 
-For information on core dump and how to get started, check out the [References](#references) section.
+## Helpdesk
 
-Good luck!
-
-### Deadline of registration
-
-XX-XX-XXXX
+If you have any questions, please do not hestiate to send emails to: <s2istnsa@gmail.com>
 
 ## Preparation
 
-First, you need to install VirtualBox :
+First, you need to download VirtualBox from [Download Page](https://www.virtualbox.org/wiki/Downloads) according to your host system.
+
+Second, you need to install VirtualBox on your host system. You could refer to 
+
+Step by step screenshots:
 
 - [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
 - [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
@@ -44,7 +66,10 @@ Step-by-step videos :
 
 Second, you need to download the `S2ISTNSA.zip` file from [PSU Box Link 1](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or `S2ISTNSA.tar.xz` from [PSU Box Link 2](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click the `S2ISTNSA.vbox`. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file under that folder before next step.
 
+Second, you need to download the [S2ISTNSA.zip](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or [S2ISTNSA.tar.xz](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click file S2ISTNSA.vbox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the 7 problems are in folder **/home/s2ist/Challenges/**. Please carefully read the README file in this folder before taking the next step.
+
 **NOTE:** 
+
 1. You could follow the instruction in [Tip 1](#tip-1) to disable ASLR (Address Space Layout Randomization).
 2. Please refer to the [Submission](#submission) section before you submit your answers for each challenge.
 3. See [Tip 4](#tip-4) to get the md5 value of a given file.
@@ -85,17 +110,11 @@ Given one coredump - `core` and its binary - `example`, answer the following fou
 4. What's the stack trace in the coredump?
 
 ### Challenge 6 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
-<!---
-(Non-corrupted coredump)
---->
  
 Given the following files: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`), try to find the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
 **Submission** : File_name:line_number, for example, `test.c:10`.
 
 ### Challenge 7 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
-<!---
-(Corrupted coredump)
---->
 
 Given the following files: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
 
@@ -112,7 +131,11 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ## Submission
 
-Please send an email that contains all the submissions of challenges to <s2istnsa@gmail.com>. Make sure that you write all the submissions **in one email**. We will only take **the last email** from each team before the deadline of submission. Please use the same email address that you used for registration to send your submission. Refer the `submission_template.txt` in `/home/s2ist/Challenges/` for how to submit your answers. 
+Please send an email that contains all your solutions for the 7 challenges to: <s2istnsa@gmail.com>.
+
+Make sure that you include all your solutions in one email. 
+
+We will only take the last email from each team before the deadline of submission. Please use the same email address that you used for registration to send your submission. Refer to template file **submission_template.txt** in folder **/home/s2ist/Challenges/** for how to submit your solutions. 
 
 ## Tips
 
