@@ -25,7 +25,9 @@ The competition is open to all students: high school students, undergraduate stu
 ## Prizes
 
 First Prize: $5,000
+
 Second Prize: $3,500
+
 Third Prize: $1,500
 
 ## Registration
@@ -51,20 +53,18 @@ If you have any questions, please do not hestiate to send emails to: <s2istnsa@g
 
 First, you need to download VirtualBox from [Download Page](https://www.virtualbox.org/wiki/Downloads) according to your host system.
 
-Second, you need to install VirtualBox on your host system. You could refer to 
+Second, you need to install VirtualBox on your host system. You could refer to :
 
-Step by step screenshots:
+- Step by step screenshots:
 
-- [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
-- [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
+	- [Installation of VirtualBox in Windows/Mac](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/VirtualBox_Installation.pdf)
+	- [Installation of VirtualBox in Ubuntu](https://github.com/psusecurity/psusecurity.github.io/raw/master/doc/Install_VirtualBox_on_Ubuntu.pdf)
 
-Step-by-step videos :
+- Step-by-step videos :
 
-- [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
-- [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
-- [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
-
-Second, you need to download the `S2ISTNSA.zip` file from [PSU Box Link 1](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or `S2ISTNSA.tar.xz` from [PSU Box Link 2](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click the `S2ISTNSA.vbox`. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the Challenges are in `/home/s2ist/Challenges/`. Please refer to the README file under that folder before next step.
+	- [Install VirtualBox on Windows 10](https://www.youtube.com/watch?v=63_kPIQUPp8)
+	- [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
+	- [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
 Second, you need to download the [S2ISTNSA.zip](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or [S2ISTNSA.tar.xz](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click file S2ISTNSA.vbox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the 7 problems are in folder **/home/s2ist/Challenges/**. Please carefully read the README file in this folder before taking the next step.
 
