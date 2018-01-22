@@ -32,7 +32,7 @@ Third Prize: $1,500
 
 ## Registration
 
-**Registration deadline: Feb 24, 2018**
+### Registration deadline: Feb 24, 2018
 
 To get started, register by sending an email to <s2istnsa@gmail.com>. The subject of the email should include the name and members of your team. For example, **Team XXX with Members - XXX, XXX**.  If you want to attach more information, please include the information in the body of your email. You could register with your .edu email account. Otherwise, you need to provide a student ID as your credential in the email body.
 
@@ -66,7 +66,7 @@ Second, you need to install VirtualBox on your host system. You could refer to :
 	- [Install VirtualBox on Mac](https://www.youtube.com/watch?v=lEvM-No4eQo)
 	- [How to install VirtualBox on Ubuntu 14.04 LTS](https://www.youtube.com/watch?v=si0nSaCnNoY).
 
-Second, you need to download the [S2ISTNSA.zip](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or [S2ISTNSA.tar.xz](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click file S2ISTNSA.vbox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the 7 problems are in folder **/home/s2ist/Challenges/**. Please carefully read the README file in this folder before taking the next step.
+Third, you need to download the [S2ISTNSA.zip](https://psu.box.com/s/9yswnnyaf0qsj0x68n6hj2awgx47rwop) or [S2ISTNSA.tar.xz](https://psu.box.com/s/6rktjnf4no317wwl4eqdhwy7vrww7zjx), extract it and double click file S2ISTNSA.vbox. The username and password are **s2ist** and **s2ist**, respectively. All the files related to the 7 problems are in folder **/home/s2ist/Challenges/**. Please carefully read the README file in this folder before taking the next step.
 
 **NOTE:** 
 
@@ -154,23 +154,23 @@ We will only take the last email from each team before the deadline of submissio
 
 ### Tip 1
 
-Q : How to turn off ASLR? 
-A : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
+**Q** : How to turn off ASLR?    
+**A** : `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 
 ### Tip 2 
 
-Q : How to use binary and corresponding coredump from gdb?    
-A : `gdb binary coredump`
+**Q** : How to use binary and corresponding coredump from gdb?    
+**A** : `gdb binary coredump`
 
 ### Tip 3
 
-Q : How to find the vulnerable function that contributes to the corrupted object?    
-A : Traverse all the functions in the stack trace and figure out the function that modifies the corrupted object to bad state.
+**Q** : How to find the vulnerable function that contributes to the corrupted object?    
+**A** : Traverse all the functions in the stack trace and figure out the function that modifies the corrupted object to bad state.
 
 ### Tip 4
 
-Q : How to get the MD5 value of a file?    
-A : `md5sum filename`
+**Q** : How to get the MD5 value of a file?    
+**A** : `md5sum filename`
 
 
 ## References
