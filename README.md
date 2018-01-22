@@ -19,7 +19,7 @@ The competition is open to all students: high school students, undergraduate stu
 
 - be at least 13 years old;
 - if under 18, have the consent of their parent or guardian to participate;
-- form a team alone or with up to 4 other participants; and 
+- if a team has only one member, then the member must be a U.S. citizen; if a team has two members, then at least one member must be a U.S. citizen; if a team has three or four members, then at least two members must be a U.S. citizen; if a team has five members, then at least three members must be a U.S. citizen; and
 - have a valid student ID (photo ID)
 
 ## Prizes
