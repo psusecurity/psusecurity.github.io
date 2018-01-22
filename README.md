@@ -10,7 +10,7 @@ The main goal of the competition is to serve as an educational exercise helping 
 
 The Competition consists of two stages: 
 
-- Stage I involves trying to solve 7 problems (i.e., Challeges) without going to the main campus of Penn State.  Participants submit their solutions through an email.  Stage I will last 2 weeks. 
+- Stage I involves trying to solve 7 problems (i.e., Challenges) without going to the main campus of Penn State.  Participants submit their solutions through an email.  Stage I will last 2 weeks. 
 - Stage II involves trying to solve a designated number of problems at the main campus of Penn State.  A designated number of better performers during Stage I will advance to Stage II. All travel costs will be covered by Penn State. The Stage II Competition will last 12 hours (10am-10pm) on the designated Competition day. 
 
 ### Who is eligible to participate in the Competition?
@@ -47,7 +47,7 @@ To get started, register by sending an email to <s2istnsa@gmail.com>. The subjec
 
 ## Helpdesk
 
-If you have any questions, please do not hestiate to send emails to: <s2istnsa@gmail.com>
+If you have any questions, please do not hesitate to send emails to: <s2istnsa@gmail.com>
 
 ## Preparation
 
