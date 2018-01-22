@@ -76,49 +76,62 @@ Second, you need to download the [S2ISTNSA.zip](https://psu.box.com/s/9yswnnyaf0
 
 ## Challenges
 
-### Challenge 1 : Generate malicious input to print out "Welcome to overflow!"
+### Challenge 1: Generate a malicious input to print out “Welcome to overflow!”
 
-Given the vulnerable binary - `challenge1`, generate a malicious input to get the following output: "Welcome to overflow". To make your life easier, we provide the source code.
+Using the given vulnerable binary, the participants should generate a malicious input to get the following output: “Welcome to overflow!”.  To make this challenge easier, the source code of the vulnerable binary is provided. 
 
-**Submission** : a screenshot with the md5 of `challenge1` and the commands to get the desired output. 
+What should be submitted: a screenshot with the md5 of the given vulnerable binary, and the commands to get the desired output. 
 
-### Challenge 2 : Generate malicious input to print out "Welcome to overflow!"
+### Challenge 2: Generate a malicious input to print out “Welcome to overflow!”
 
-Given the vulnerable binary - `challenge2`, generate a malicious input to get the following output: "Welcome to overflow". To make your life easier, we provide the source code.
+Using the given vulnerable binary, the participants should generate a malicious input to get the following output: “Welcome to overflow!”.  To make this challenge easier, the source code of the vulnerable binary is provided. 
 
-**Submission** : a screenshot with the md5 of `challenge2` and the commands to get the desired output.
+What should be submitted: a screenshot with the md5 of the given vulnerable binary, and the commands to get the desired output.
 
-### Challenge 3 : Craft malicious input file and invoke gedit window
+### Challenge 3: Craft a malicious input file and invoke a gedit window
 
-Given the vulnerable binary - `challenge3`, generate a malicious input to open a **gedit** window. To make your life easier, we provide the source code. You could read [Reference 2](#references) to get some information about **buffer overflows**.
+Using the given vulnerable binary, generate a malicious input file to open a **gedit** window. To make this challenge easier, the source code of the vulnerable binary is provided. 
 
-**Submission** : a screenshot with the md5 of `challenge3` and the commands to invoke a **gedit** window.
+Hint: [Reference 2](#references) is particularly helpful for this challenge.  
 
-### Challenge 4 : Craft malicious input file and invoke one command in source code
+What should be submitted: a screenshot with the md5 of the given vulnerable binary, and the commands to invoke a **gedit** window.
 
-Given the vulnerable binary - `challenge4`, generate a malicious input to execute a command hidden in the source code. To make your life easier, we provide the source code. You could read [Reference 3](#references) to get some information about **interger overflows**.
+### Challenge 4: Craft a malicious input file and invoke one command in source code
 
-**Submission** : a screenshot with the md5 of `challenge4` and the commands to invoke the command hidden in source code.
+Using the given vulnerable binary, generate a malicious input file to execute a command hidden in the source code. To make this challenge easier, the source code of the vulnerable binary is provided.  
 
-### Challenge 5 : Learn Coredump
+Hint: [Reference 3](#references) is particularly helpful for this challenge.  
 
-Given one coredump - `core` and its binary - `example`, answer the following four questions.  You could read [Tip 2](#tip-2) and [References 4, 5 and 6](#references) to get all of the related information.
+What should be submitted: a screenshot with the md5, and the commands to invoke the command hidden in source code.
 
-1. What’s the magic number for the given coredump file?
+### Challenge 5: Understand Core Dumps 
+
+Using the given post-crash core dump and the corresponding binary, answer the following four questions: 
+
+1. What’s the magic number for the given core dump file?
 2. Can you show the program header table?
-3. What’s the value of address 0x8048010(double word size) in the coredump?
-4. What's the stack trace in the coredump?
+3. What’s the content of address 0x8048010 (double word size) in the core dump?
+4. What’s the stack trace in the core dump?
 
-### Challenge 6 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
- 
-Given the following files: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`), try to find the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
-**Submission** : File_name:line_number, for example, `test.c:10`.
+Hint: [Tip 2](#tip-2) and [References 4, 5 and 6](#references) are particularly helpful for this challenge. 
 
-### Challenge 7 : Figure out Root Cause of Vulnerability from Coredump, Binary and Source Code
+What should be submitted: your answers for the 4 questions
 
-Given the following files: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`), try to catch the root cause for the crash (i.e. the buggy file and the corresponding line number). You could read [References 7 and 8](#references) for help with stack traces. And you could read [Reference 9](#references) to check the value of program variables.
+### Challenge 6: Find Root Cause of Vulnerability from Core Dumps
 
-**Submission** : File_name:line_number, for example, `test.c:10`.
+The following files are given: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`). Using these files, find the root cause for the crash (i.e., the buggy source code file and the corresponding line number). 
+
+Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references)to check the value of a program variable. 
+
+What should be submitted: File_name:line_number, for example, `test.c:10`. 
+
+### Challenge 7: Find Root Cause of Vulnerability from Core Dumps
+
+The following files are given: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`). Using these files, find the root cause for the crash (i.e., the buggy file and the corresponding line number).  
+
+Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references)to check the value of a program variable. 
+
+What should be submitted: File_name:line_number, for example, `test.c:10`.
 
 <!---
 
@@ -162,23 +175,23 @@ A : `md5sum filename`
 
 ## References
 
-[1] [Linux (x86) Exploit Development Series](https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/)
+1. [Linux (x86) Exploit Development Series](https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/)
 
-[2] [Classic Stack Based Buffer Overflow](https://sploitfun.wordpress.com/2015/05/08/classic-stack-based-buffer-overflow/)
+2. [Classic Stack Based Buffer Overflow](https://sploitfun.wordpress.com/2015/05/08/classic-stack-based-buffer-overflow/)
 
-[3] [Integer Overflow](https://sploitfun.wordpress.com/2015/06/23/integer-overflow/)
+3. [Integer Overflow](https://sploitfun.wordpress.com/2015/06/23/integer-overflow/)
 
-[4] [ELF Format](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/elf-generic.html)
+4. [ELF Format](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/elf-generic.html)
 
-[5] [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/#generate-the-example)
+5. [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/#generate-the-example)
 
-[6] [Coredump in Linux](http://www.gabriel.urdhr.fr/2015/05/29/core-file/)
+6. [Coredump in Linux](http://www.gabriel.urdhr.fr/2015/05/29/core-file/)
 
-[7] [GDB Stacktrace](https://sourceware.org/gdb/onlinedocs/gdb/Backtrace.html)
+7. [GDB Stacktrace](https://sourceware.org/gdb/onlinedocs/gdb/Backtrace.html)
 
-[8] [Get stacktrace from coredump](https://stackoverflow.com/questions/5745215/getting-stacktrace-from-core-dump)
+8. [Get stacktrace from coredump](https://stackoverflow.com/questions/5745215/getting-stacktrace-from-core-dump)
 
-[9] [GDB Variables](https://sourceware.org/gdb/onlinedocs/gdb/Variables.html)
+9. [GDB Variables](https://sourceware.org/gdb/onlinedocs/gdb/Variables.html)
 
-[10] [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
+10. [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
 
