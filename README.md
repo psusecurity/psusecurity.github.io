@@ -2,7 +2,7 @@
 
 Welcome to the 2018 Penn State Cybersecurity Competition, a security contest sponsored by NSA (National Security Agency)! 
 
-This competition is a 2-stage cyber competition on crash forensics against memory corruption attacks.  Being different from existing Capture the Flag (CTF) competitions, which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis, our competition focuses on software vulnerability identification.  In other words, the skills  required for this contest include memory forensics, and dynamic and static analysis of vulnerable programs.
+This competition is a 2-stage (i.e., two rounds) cyber competition on crash forensics against memory corruption attacks.  Being different from existing Capture the Flag (CTF) competitions, which focus on skills such as reverse-engineering, network sniffing, and cryptanalysis, our competition focuses on software vulnerability identification.  In other words, the skills  required for this contest include memory forensics, and dynamic and static analysis of vulnerable programs.
 
 The main goal of the competition is to serve as an educational exercise helping participants gain essential experience in finding security loopholes that may be found in commonly available software. In addition, the contest aims to attract a diverse population of students to the field of cybersecurity. The contest will produce a collection of core dumps attributable to real-world memory corruption attacks.  We will make these core dumps publicly available as a resource to cybersecurity educators and researchers.
 
@@ -10,16 +10,16 @@ The main goal of the competition is to serve as an educational exercise helping 
 
 The Competition consists of two stages: 
 
-- Stage I involves trying to solve 7 problems (i.e., Challenges) without going to the main campus of Penn State.  Participants submit their solutions through an email.  Stage I will last 2 weeks. 
-- Stage II involves trying to solve a designated number of problems at the main campus of Penn State.  A designated number of better performers during Stage I will advance to Stage II. All travel costs will be covered by Penn State. The Stage II Competition will last 12 hours (10am-10pm) on the designated Competition day. 
+- Stage I (i.e., preliminary round) involves trying to solve 7 problems (i.e., Challenges) without going to the main campus of Penn State.  Participants submit their solutions through an email.  Stage I will last 2 weeks. 
+- Stage II (i.e., final round) involves trying to solve a designated number of problems at the main campus of Penn State.  A designated number of better performers during Stage I will advance to Stage II. All travel costs will be covered by Penn State. The Stage II Competition will last 12 hours (10am-10pm) on the designated Competition day. 
 
 ### Who is eligible to participate in the Competition?
 
 The competition is open to all students: high school students, undergraduate students, and graduate students. Each individual who participates in the Competition must: 
 
-- be at least 13 years old;
-- if under 18, have the consent of their parent or guardian to participate;
-- if a team has only one member, then the member must be a U.S. citizen; if a team has two members, then at least one member must be a U.S. citizen; if a team has three or four members, then at least two members must be a U.S. citizen; if a team has five members, then at least three members must be a U.S. citizen; and
+- be at least 18 years old;
+- form a team alone or with up to 4 other participants; 
+- must be U.S. citizens, or permanent residents admitted to the U.S. for permanent residence prior to award
 - have a valid student ID (photo ID)
 
 ## Prizes
@@ -34,7 +34,8 @@ Third Prize: $1,500
 
 ### Registration deadline: Feb 24, 2018
 
-To get started, register by sending an email to <s2istnsa@gmail.com>. The subject of the email should include the name and members of your team. For example, **Team XXX with Members - XXX, XXX**.  If you want to attach more information, please include the information in the body of your email. You could register with your .edu email account. Otherwise, you need to provide a student ID as your credential in the email body.
+**Online registration site:** [http://sites.psu.edu/nsacomptest/prelimroundov/registration/](http://sites.psu.edu/nsacomptest/prelimroundov/registration/)
+
 
 ## Instructions for Stage I Participants
 
@@ -144,11 +145,9 @@ Given Coredump with binary and Source code, try to catch the root cause. You cou
 
 ## Submission
 
-Please send an email that contains all your solutions for the 7 challenges to: <s2istnsa@gmail.com>.
+**Online solution submission site:** [http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/](http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/ )
 
-Make sure that you include all your solutions in one email. 
-
-We will only take the last email from each team before the deadline of submission. Please use the same email address that you used for registration to send your submission. Refer to template file **submission_template.txt** in folder **/home/s2ist/Challenges/** for how to submit your solutions. 
+Make sure that you include all of your solutions in a single file. 
 
 ## Tips
 
@@ -195,3 +194,6 @@ We will only take the last email from each team before the deadline of submissio
 
 10. [Anatomy of a Program in Memory](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
 
+## FAQs
+
+[http://sites.psu.edu/nsacomptest/faqs/](http://sites.psu.edu/nsacomptest/faqs/)
