@@ -19,7 +19,7 @@ The competition is open to all students: high school students, undergraduate stu
 
 - be at least 18 years old;
 - form a team alone or with up to 4 other participants; 
-- must be U.S. citizens, or permanent residents admitted to the U.S. for permanent residence prior to award
+- must be U.S. citizens, or permanent residents admitted to the U.S. for permanent residence prior to award, and;
 - have a valid student ID (photo ID)
 
 ## Prizes
@@ -122,7 +122,7 @@ What should be submitted: your answers for the 4 questions
 
 The following files are given: core dump (`core`), binary (`gdb`), and source code (`gdb.tar.gz`). Using these files, find the root cause for the crash (i.e., the buggy source code file and the corresponding line number). 
 
-Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references)to check the value of a program variable. 
+Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references) to check the value of a program variable. 
 
 What should be submitted: File_name:line_number, for example, `test.c:10`. 
 
@@ -130,7 +130,7 @@ What should be submitted: File_name:line_number, for example, `test.c:10`.
 
 The following files are given: core dump (`core`), binary (`latex2rtf`), and source code (`latex2rtf.tar.gz`). Using these files, find the root cause for the crash (i.e., the buggy file and the corresponding line number).  
 
-Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references)to check the value of a program variable. 
+Hint: [References 7 and 8](#references) are helpful in leveraging the stack traces. You could read [Reference 9](#references) to check the value of a program variable. 
 
 What should be submitted: File_name:line_number, for example, `test.c:10`.
 
