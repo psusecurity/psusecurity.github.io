@@ -32,14 +32,14 @@ Third Prize: $1,500
 
 ## Registration
 
-### Registration deadline: Feb 24, 2018
+### Registration deadline: Feb 22, 2018
 
 **Online registration site:** [http://sites.psu.edu/nsacomptest/prelimroundov/registration/](http://sites.psu.edu/nsacomptest/prelimroundov/registration/)
 
 
 ## Instructions for Stage I Participants
 
-- Period of Stage I competition: **Feb 18 -- March 4**
+- Period of Stage I competition: **Feb 22 -- March 4**
 - Submission deadline: **11:59pm on March 4, 2018**  
 - You can find the 7 problems in the [Challenges](#challenges) section.  
 - Before you can work on any of the 7 problems, you must firstly download a particular virtual machine image created by us. You can download the virtual machine image in the [Preparation](#preparation) section.  
