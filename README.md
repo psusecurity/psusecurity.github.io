@@ -22,6 +22,8 @@ The competition is open to all students: high school students, undergraduate stu
 - must be U.S. citizens, or permanent residents admitted to the U.S. for permanent residence prior to award, and;
 - have a valid student ID (photo ID)
 
+For more background information of this competition, see [http://sites.psu.edu/nsacomptest](http://sites.psu.edu/nsacomptest)
+
 ## Prizes
 
 First Prize: $5,000
