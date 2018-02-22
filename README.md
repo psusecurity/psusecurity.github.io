@@ -173,6 +173,12 @@ Make sure that you include all of your solutions in a single file.
 **Q** : How to get the MD5 value of a file?    
 **A** : `md5sum filename`
 
+### Tip 5
+
+**Q**: How to easily feed input to those challenge programs?
+**A**: 1.`echo "XXX" > tmp ;  ./challenge < tmp;` 
+       2.`echo "XXX" | ./challenge`
+       You could still use `python/perl` to directly generate your payload.
 
 ## References
 
