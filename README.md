@@ -210,6 +210,7 @@ It will be greatly appreciated if you can share us the following information:
 
  - Use program header table to get the value of one memory from core dump. You could refer to detailed information from Reference 6
  - The loading locations of libraries can be learned from the core dump
+ - In the trace, the `rep` instruction has been extracted into multiple instructions according to the loop inside
 
 ## Submission
 
