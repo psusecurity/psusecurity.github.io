@@ -149,7 +149,7 @@ In this challenge, we need your help to provide some detailed information of one
 We are expecting the following detailed information:
 
  1. What's the ELF header of Core dump?
- 2. What's the File association of the crash?
+ 2. What's the File association of the crash? Please refer to [Reference 6](http://www.gabriel.urdhr.fr/2015/05/29/core-file/) for the definition of File association.
  3. What's the start and end virtual address for `libc-2.19.so`?
 
 ### Challenge 9 : Locate Vulnerability from Software Crash
@@ -184,7 +184,7 @@ We would really like to know one thing:
 - Starting from the last instruction until the first instruction:
 	- Reconstruct the instructions executed before the crash in chronological order
 	- Which memory cells or which registers were read/written by each instruction (please give the addresses of memory cells and names of registers)
-	- For an instruction, if memory cells or registers are written, what are their original values?
+	- For an instruction, if memory cells or registers are overwritten, what are their original values?
 	- **The more instructions you resolve and the more information you provide, the more bonus you will obtain**
 
 **Hints:**
