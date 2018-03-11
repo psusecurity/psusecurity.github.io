@@ -170,6 +170,7 @@ We are expecting the following information:
 
  - The executable is compiled from the provided source code and it contains debugging information
  - The core dump is generated when the provided executable runs into failure
+ - **Dynamic Hint: The software crashes right after the return instruction has been executed. To solve this challenge, you might take a look at the return address remaining on the stack.**
 
 ### Challenge 10 : Recover the Execution State before a Software Crash
 
