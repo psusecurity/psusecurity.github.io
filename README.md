@@ -276,6 +276,20 @@ Make sure that you include all of your solutions in a single file.
 15. [Note Segment Data Format](http://refspecs.linuxbase.org/elf/elf.pdf#page=42)
 -->
 
+## Organizers
+
+[Dongliang Mu](http://mudongliang.me/about)
+
+[Xinyu Xing](http://xinyuxing.org/)
+
+[Nick Giacobe](http://personal.psu.edu/nxg13/)
+
+[Peng Liu](https://s2.ist.psu.edu/pliu/)
+
+## Sponsors
+
+The Penn State Memory Corruption Forensics Competition is proudly sponsored by [the National Security Agency](https://www.nsa.gov/), as well as [the College of Information Sciences & Technology](https://ist.psu.edu/)!
+
 ## FAQs
 
 [http://sites.psu.edu/nsacomptest/faqs/](http://sites.psu.edu/nsacomptest/faqs/)
