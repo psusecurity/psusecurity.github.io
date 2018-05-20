@@ -1,6 +1,0 @@
-## Results
-
-### Scoreboard
-
-
-### Group Photo

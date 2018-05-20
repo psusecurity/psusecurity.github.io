@@ -136,6 +136,22 @@ Hint: [References 7 and 8](#references) are helpful in leveraging the stack trac
 
 What should be submitted: File_name:line_number, for example, `test.c:10`.
 
+### Submission
+
+**Online solution submission site:** [http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/](http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/ )
+
+Make sure that you include all of your solutions in a single file.
+
+### Result for Round I
+
+Six Teams will join our second stage.
+
+- George Mason University
+- StonyBrook
+- Penn State University #1
+- Stevens Institute of Technology
+- Lehigh University
+- Penn State University #2
 
 ## Challenges for Round II
 
@@ -212,11 +228,34 @@ It will be greatly appreciated if you can share us the following information:
  - The loading locations of libraries can be learned from the core dump
  - In the trace, the `rep` instruction has been extracted into multiple instructions according to the loop inside
 
-## Submission
+### Submission
 
-**Online solution submission site:** [http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/](http://sites.psu.edu/nsacomptest/prelimroundov/submission-board/ )
+Please send an email that contains your solution for each challenge to: <s2istnsa@gmail.com>. 
 
-Make sure that you include all of your solutions in a single file.
+### Result of Round II
+
+Team Name | Score 
+----------|-------
+Stevens Institute of Technology|100 (with less time)
+Penn State University #1| 100
+StonyBrook|86
+
+**Note:** we have uploaded the password for each challenge in Stage II to the Github Repo - `zip_password.csv`.
+
+Challenge | Zip Password
+----------|-------------
+C8|mUmuWgtfd9M4sNFq
+C9|RZmm5pd8zQtQywoG
+C10|kWrkdGs45Z2U9tWN
+C11|XjfYoXZiAsb3v7Db
+
+## Group Photo
+
+![photo](./images/image1.jpg)
+
+![photo](./images/image2.jpg)
+
+![photo](./images/image3.jpg)
 
 ## Tips
 
